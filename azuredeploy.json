@@ -107,7 +107,7 @@
     "variables": {
         "hostingPlanName": "[parameters('function_app_name')]",
         "storageAccountName": "[concat('storage', uniquestring(resourceGroup().id))]",
-        "functionPackage": "https://github.com/jchalais/Meraki-vWAN/MerakiFunction.zip"
+        "functionPackage": "https://github.com/jchalais/Meraki-vWAN/raw/main/MerakiFunction.zip"
     },
     "resources": [
         {
